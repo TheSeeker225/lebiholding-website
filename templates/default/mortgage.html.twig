@@ -1,0 +1,281 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+<!--=================================
+loan -->
+<section class="mortgage space-ptb bg-dark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-sm-10 text-center align-self-center">
+        <h1 class="mb-3 text-white">Looking for a home loan? Let us be your guide.</h1>
+        <span class="text-white">Don't worry. We've done this for millions of times.</span>
+        <div class="search mt-5">
+          <a href="#">Get Pre-Qualified</a>
+          <input type="text" class="form-control" placeholder="145895">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+loan -->
+
+<!--=================================
+Mortgage calculators -->
+<section class="space-ptb">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="section-title">
+          <h2>Mortgage calculators</h2>
+          <p>Discover how much you may be able to borrow, or work out your monthly mortgage repayments</p>
+        </div>
+        <form>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label>ZIP Code</label>
+              <input type="text" class="form-control" placeholder="457814">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label>Purchase Price</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" placeholder="60,478">
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label>Down Payment</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" placeholder="25,465">
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label>Loan term <span data-toggle="tooltip" data-placement="top" title="The amount of time you have to pay back the loan. Usually 10 or 20 years for common loan types."> <i class="fas fa-question-circle"></i></span></label>
+              <input type="number" class="form-control" value="1000000" data-decimals="0" min="0" max="2000000" step="1"/>
+            </div>
+            <div class="col-12 mt-3">
+              <a class="btn btn-primary" href="#">Calculate</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-5 mt-4 mt-md-0">
+        <h4 class="text-white p-4 mb-0 bg-dark">Get a more detailed estimate</h4>
+        <div class="bg-primary p-4">
+          <p class="text-white">Get pre-qualified by a local banker to see an even more detailed estimate of your monthly/yearly mortgage payment.</p>
+          <a class="btn btn-white mt-4" href="#">Get Pre-qualified</a>
+        </div>
+        <p class="mt-3 mb-0"> <span class="badge badge-info">Note:</span> When calculate with the calculator, please remember the dollar amounts displayed are not guaranteed, and what you pay may be different.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+Mortgage calculators -->
+
+<!--=================================
+Mortgage Interest Rates -->
+<section class="space-pb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="section-title">
+          <h2>Mortgage Interest Rates</h2>
+          <p>Discover how much you may be able to borrow, or work out your monthly mortgage repayments</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-bordered table-striped mb-0">
+          <thead>
+            <tr>
+              <th scope="col">Program</th>
+              <th scope="col">Interest Rate</th>
+              <th scope="col">APR</th>
+              <th scope="col">1 Wk Change</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>15-Year Fixed </td>
+              <td>2.45% </td>
+              <td>1.3%</td>
+              <td>-0.02%</td>
+            </tr>
+            <tr>
+              <td>16-Year Fixed </td>
+              <td>3.14% </td>
+              <td>2.3%</td>
+              <td>1.45%</td>
+            </tr>
+            <tr>
+              <td>18-Year Fixed </td>
+              <td>1.45% </td>
+              <td>2.4%</td>
+              <td>-1.12%</td>
+            </tr>
+            <tr>
+              <td>22-Year Fixed </td>
+              <td>4.75% </td>
+              <td>3.1%</td>
+              <td>-0.27%</td>
+            </tr>
+            <tr>
+              <td>30-Year Fixed </td>
+              <td>6.48% </td>
+              <td>2.0%</td>
+              <td>-0.12%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+Mortgage Interest Rates -->
+
+<!--=================================
+Faqs -->
+<section class="space-pb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title text-center">
+          <h2>Frequently asked questions</h2>
+          <p>Discover how much you may be able to borrow, or work out your monthly mortgage repayments</p>
+        </div>
+        <div class="accordion-style-2" id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="accordion-title mb-0">
+              <button class="btn btn-link d-flex align-items-center ml-auto" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How does my credit rating affect my home loan interest rate? <i class="fas fa-chevron-down fa-xs"></i></button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show accordion-content" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <p>For those of you who are serious about having more, doing more, giving more and being more, success is achievable with some understanding of what to do, some discipline around planning and execution of those plans and belief that you can achieve your desires.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="accordion-title mb-0">
+              <button class="btn btn-link d-flex align-items-center ml-auto collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Do I need to get a home appraisal in order to get a home loan? <i class="fas fa-chevron-down fa-xs"></i>
+              </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse accordion-content" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <p>The first thing to remember about success is that it is a process – nothing more, nothing less. There is really no magic to it and it’s not reserved The first thing to remember about success is that it is a process – nothing more, nothing less. There is really no magic to it and it’s not reserved only for a select few people. As such, success really has nothing to do with luck, coincidence or fate. It really comes down to understanding the steps in the process and then executing on those steps.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingthree">
+              <h5 class="accordion-title mb-0">
+              <button class="btn btn-link d-flex align-items-center ml-auto collapsed" data-toggle="collapse" data-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+              See all home mortgage FAQs? <i class="fas fa-chevron-down fa-xs"></i>
+              </button>
+              </h5>
+            </div>
+            <div id="collapsethree" class="collapse accordion-content" aria-labelledby="headingthree" data-parent="#accordion">
+              <div class="card-body">
+                <p>There are basically six key areas to higher achievement. Some people will tell you there are four while others may tell you there are eight. One thing for certain though, is that irrespective of the number of steps the experts talk about, they all originate from the same roots.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingfour">
+              <h5 class="accordion-title mb-0">
+              <button class="btn btn-link d-flex align-items-center ml-auto collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+              How long does the whole loan process take? <i class="fas fa-chevron-down fa-xs"></i>
+              </button>
+              </h5>
+            </div>
+            <div id="collapsefour" class="collapse accordion-content" aria-labelledby="headingfour" data-parent="#accordion">
+              <div class="card-body">
+                <p>Making a decision to do something – this is the first step. We all know that nothing moves until someone makes a decision. The first action is always in making the decision to proceed. This is a fundamental step, which most people overlook</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+Faqs -->
+
+<!--=================================
+Need any help? -->
+<section class="space-pb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title text-center">
+          <h2>Need any help?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, perferendis!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="bg-light h-100 p-5">
+          <h4>Chat to us online</h4>
+          <p>Chat to us online if you have a question about using our Mortgage calculator.</p>
+          <a class="btn btn-primary btn-sm mt-3" href="#"> start web chat</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="bg-primary h-100 p-5">
+          <h4 class="text-white">Call us</h4>
+          <p class="text-white">Our mortgage loan officers will work with you to meet your lending needs.</p>
+          <h2 class="text-white mt-4 mb-0">(123) 345-6789</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-dark h-100 p-5">
+          <h4 class="text-white">Contact us now to lock in your rate.</h4>
+          <span class="text-white mt-1 mb-0 d-block">Find a mortgage loan officer call</span>
+          <h2 class="text-white mt-4 mb-0">(456) 478-2589</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+Need any help?-->
+
+<!--=================================
+newsletter -->
+<section class="py-5 bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h3 class="text-white mb-0">Sign up to our newsletter to get the latest news and offers.</h3>
+      </div>
+      <div class="col-md-7 mt-3 mt-md-0">
+        <div class="newsletter">
+          <form>
+            <div class="form-group mb-0">
+              <input type="email" class="form-control" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-dark b-radius-left-none">Get notified</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+newsletter -->
+
+{% endblock %}
